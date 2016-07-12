@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TTEmojiFlagString_Example' do
+  pod 'TTEmojiFlagString', :path => '../'
+
+  target 'TTEmojiFlagString_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
