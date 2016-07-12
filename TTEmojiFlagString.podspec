@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TTEmojiFlagString'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'ObjectiveC category to convert 2 letter ISO 3166-1 alpha-2 country codes to a Unicode Flag Emoji'
 
 # This description is used to generate tags and improve search results.
