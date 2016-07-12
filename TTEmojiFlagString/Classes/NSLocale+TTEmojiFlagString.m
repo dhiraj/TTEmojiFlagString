@@ -3,8 +3,7 @@
 //  Uniconnect
 //
 //  Created by Dhiraj Gupta on 7/12/16.
-//  Copyright © 2016 Uniconnect. All rights reserved.
-//
+// Copied liberally from http://stackoverflow.com/questions/30402435/swift-turn-a-country-code-into-a-emoji-flag-via-unicode/34995291#34995291
 
 #import "NSLocale+TTEmojiFlagString.h"
 
