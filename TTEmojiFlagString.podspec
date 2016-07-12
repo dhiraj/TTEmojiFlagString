@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TTEmojiFlagString'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'ObjectiveC category to convert 2 letter ISO 3166-1 alpha-2 country codes to a Unicode Flag Emoji'
 
 # This description is used to generate tags and improve search results.
@@ -28,8 +28,7 @@ This little ObjectiveC category turns any given 2 letter ISO 3166-1 alpha-2 coun
   s.source           = { :git => 'https://github.com/dhiraj/TTEmojiFlagString.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/dhiraj'
 
-  s.ios.deployment_target = '8.0'
-  spec.osx.deployment_target = '10.8'
+  s.ios.deployment_target = '8.3'
 
   s.source_files = 'TTEmojiFlagString/Classes/**/*'
   
@@ -37,7 +36,7 @@ This little ObjectiveC category turns any given 2 letter ISO 3166-1 alpha-2 coun
   #   'TTEmojiFlagString' => ['TTEmojiFlagString/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'TTEmojiFlagString/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
