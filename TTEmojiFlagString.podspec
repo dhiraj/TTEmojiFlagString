@@ -26,9 +26,10 @@ This little ObjectiveC category turns any given 2 letter ISO 3166-1 alpha-2 coun
   s.license          = { :type => 'Apache', :file => 'LICENSE' }
   s.author           = { 'Dhiraj Gupta' => 'development@traversient.com' }
   s.source           = { :git => 'https://github.com/dhiraj/TTEmojiFlagString.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/dhiraj'
 
   s.ios.deployment_target = '8.0'
+  spec.osx.deployment_target = '10.8'
 
   s.source_files = 'TTEmojiFlagString/Classes/**/*'
   
