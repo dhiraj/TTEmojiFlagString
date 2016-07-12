@@ -1,0 +1,6 @@
+framework module Pods_TTEmojiFlagString_Example {
+  umbrella header "Pods-TTEmojiFlagString_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

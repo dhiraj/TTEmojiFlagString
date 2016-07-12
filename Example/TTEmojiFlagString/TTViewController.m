@@ -7,6 +7,7 @@
 //
 
 #import "TTViewController.h"
+#import "NSLocale+TTEmojiFlagString.h"
 
 @interface TTViewController ()
 
@@ -17,7 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"This is India's Flag: %@",[NSLocale emojiFlagForISOCountryCode:@"IN"]);
+    NSLog(@"Similarly, USA: %@",[NSLocale emojiFlagForISOCountryCode:@"US"]);
+    NSLog(@"Canada: %@",[NSLocale emojiFlagForISOCountryCode:@"CA"]);
+    NSLog(@"Etc.: %@",[@[[NSLocale emojiFlagForISOCountryCode:@"GB"],[NSLocale emojiFlagForISOCountryCode:@"ZA"],[NSLocale emojiFlagForISOCountryCode:@"ID"],[NSLocale emojiFlagForISOCountryCode:@"RU"],[NSLocale emojiFlagForISOCountryCode:@"NL"],[NSLocale emojiFlagForISOCountryCode:@"DE"],[NSLocale emojiFlagForISOCountryCode:@"AU"],[NSLocale emojiFlagForISOCountryCode:@"NZ"],[NSLocale emojiFlagForISOCountryCode:@"PK"],[NSLocale emojiFlagForISOCountryCode:@"CZ"],[NSLocale emojiFlagForISOCountryCode:@"IT"],[NSLocale emojiFlagForISOCountryCode:@"MY"],[NSLocale emojiFlagForISOCountryCode:@"AE"],[NSLocale emojiFlagForISOCountryCode:@"SL"]] componentsJoinedByString:@","]);
 }
 
 - (void)didReceiveMemoryWarning

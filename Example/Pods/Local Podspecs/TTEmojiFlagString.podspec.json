@@ -1,0 +1,22 @@
+{
+  "name": "TTEmojiFlagString",
+  "version": "0.1.0",
+  "summary": "A short description of TTEmojiFlagString.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/TTEmojiFlagString",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Dhiraj Gupta": "dhiraj@traversient.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/TTEmojiFlagString.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TTEmojiFlagString/Classes/**/*"
+}

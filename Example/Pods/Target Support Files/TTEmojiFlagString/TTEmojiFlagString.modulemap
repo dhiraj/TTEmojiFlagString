@@ -1,0 +1,6 @@
+framework module TTEmojiFlagString {
+  umbrella header "TTEmojiFlagString-umbrella.h"
+
+  export *
+  module * { export * }
+}

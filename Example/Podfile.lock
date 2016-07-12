@@ -1,0 +1,16 @@
+PODS:
+  - TTEmojiFlagString (0.1.0)
+
+DEPENDENCIES:
+  - TTEmojiFlagString (from `../`)
+
+EXTERNAL SOURCES:
+  TTEmojiFlagString:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TTEmojiFlagString: 1adcabf130ebec86192661c82f948e90b8c2c5f9
+
+PODFILE CHECKSUM: f7763409397073ed1f6a51fe7829bd4c0839b584
+
+COCOAPODS: 1.0.1
